@@ -65,7 +65,8 @@ Varje transkription börjar så här (fälten används av webbvisaren):
 1. Återge texten exakt som den står. Behåll stavning, förkortningar, radbrytningar och
    överstrykningar (~~text~~). Modernisera inte och översätt inte.
 2. Numrera varje rad (1, 2, 3 …) så att numreringen motsvarar originalets rader.
-   Slå aldrig ihop rader. Transkriptionen står i ett kodblock (```).
+   Slå aldrig ihop rader. Transkriptionen står i ett kodblock (```) under rubriken
+   `## Transkription`, en rad per originalrad: radnummer, två mellanslag, text.
 3. Det som står i vänstermarginalen (datum, klockslag) skrivs först på den rad det står
    vid, inom `{marg: …}`, t.ex. `1  {marg: 30.6.} Men nu blev det ändå tid …`
 4. Markera osäkerhet i texten:
@@ -91,5 +92,14 @@ Varje transkription börjar så här (fälten används av webbvisaren):
   (t.ex. "sammanhanget i 005:12").
 - Omärkta förklaringar ur eget minne är inte tillåtna.
 
+## Webbvisaren
+- `python3 bygg_index.py` – bygger pages.json och miniatyrer (kör efter varje ändring).
+- Titta lokalt: `python3 -m http.server` i projektmappen → http://localhost:8000
+- `python3 bygg_delning.py` – fristående kopia i ~/Desktop/Krigsdagbok (delning) som kan
+  zippas och öppnas med dubbelklick på "Öppna mig.html".
+- Osäkra passager listas i en tabell `| Rad | Bästa gissning | Varför |` under rubriken
+  `## Osäkra passager`; då visas motiveringen vid raden i visaren.
+
 ## Efter varje omgång
-Committa med meddelandet "10457: Transkription 001–010" (rätt volym och nummer) och pusha.
+Kör `python3 bygg_index.py`, committa med meddelandet "10457: Transkription 001–010"
+(rätt volym och nummer) och pusha (repot JoaBlo/krigsdagbok är privat).
