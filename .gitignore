@@ -1,0 +1,6 @@
+# bilderna hämtas på nytt med hamta.py
+volymer/*/bilder/
+# privat logg
+beslut.md
+__pycache__/
+.DS_Store
