@@ -76,6 +76,9 @@ for k in kallor:
             "fil": f"volymer/{sig}/transkriptioner/{nr}.md",
             "doktyp": kort(doktyp), "datum": datum, "sidnr": falt(t, "Sidnummer i dagboken"),
             "astia": b.get("astia", ""), "viite": b.get("viite", ""),
+            # bilden direkt från Kansallisarkistos server (används på GitHub Pages, där bilderna inte finns)
+            "fjarr": (f"https://astia.narc.fi/uusiastia/ws/getFile.php?fileId={b['fileId']}&aineistoId={k['aineisto']}"
+                      if b.get("fileId") else ""),
             "sakerhet": sak, "rader": len([r for r in block.splitlines() if r.strip()]),
             "osakra": len(MARK.findall(block)),
             "dubbel": "## Dubbelläsning" in t, "rattad": "## Rättelser efter dubbelläsning" in t,

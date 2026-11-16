@@ -26,7 +26,7 @@ eller kör `python3 hamta.py <länk> [bilder]` så läggs raden till automatiskt
 - `volymer/<signum>/kalla.md` – titel, arkivlänkar och källhänvisning per bild (skapas av hamta.py)
 - `namn.md` – personer, orter, förband, skrivarhänder, förkortningar (gemensam för alla volymer)
 - `ordlista.md` – förklaringar av ord och förkortningar, med källa
-- `beslut.md` – min privata logg, ligger inte i git
+- `beslut.md` – min privata logg, ligger inte i git (repot är publikt)
 
 ## Hänvisningar
 `10457/005:12` = volym 10457, bild (jakso) 5, rad 12. Inom samma volym räcker `005:12`.
@@ -95,6 +95,8 @@ Varje transkription börjar så här (fälten används av webbvisaren):
 ## Webbvisaren
 - `python3 bygg_index.py` – bygger pages.json och miniatyrer (kör efter varje ändring).
 - Titta lokalt: `python3 -m http.server` i projektmappen → http://localhost:8000
+- På GitHub Pages finns inga bilder i repot; visaren hämtar dem då direkt från Astia
+  (fältet `fjarr` i pages.json).
 - `python3 bygg_delning.py` – fristående kopia i ~/Desktop/Krigsdagbok (delning) som kan
   zippas och öppnas med dubbelklick på "Öppna mig.html".
 - Osäkra passager listas i en tabell `| Rad | Bästa gissning | Varför |` under rubriken
@@ -102,4 +104,10 @@ Varje transkription börjar så här (fälten används av webbvisaren):
 
 ## Efter varje omgång
 Kör `python3 bygg_index.py`, committa med meddelandet "10457: Transkription 001–010"
-(rätt volym och nummer) och pusha (repot JoaBlo/krigsdagbok är privat).
+(rätt volym och nummer) och pusha.
+
+**Repot JoaBlo/krigsdagbok är publikt** och visas som webbsida via GitHub Pages
+(https://joablo.github.io/krigsdagbok/). Allt som pushas syns direkt för alla och finns kvar
+i historiken. Därför:
+- beslut.md och bilderna ska aldrig in i git (de står i .gitignore – ändra inte det);
+- kontrollera `git status` före varje commit så att inga oavsiktliga filer följer med.

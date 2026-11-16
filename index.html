@@ -278,6 +278,9 @@
   const $ = s => document.querySelector(s);
   const EMBED = window.EMBED || null;  // delningsversionen (data.js): allt inbäddat, fungerar utan webbserver
   const REPO = EMBED ? "" : "https://github.com/JoaBlo/krigsdagbok/blob/main/";
+  // På GitHub Pages finns inga bilder i repot: de visas direkt från Kansallisarkistos server (Astia).
+  const REMOTE = !EMBED && /github\.io$/.test(location.hostname);
+  const imgSrc = p => (REMOTE && p.fjarr) ? p.fjarr : p.bild;
   let pages = [], docs = [], kron = [], slakt = [], curVol = "", idx = 0, view = "page", mdCache = {};
   const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
@@ -525,7 +528,7 @@
     $("#goto").value = p.jakso; $("#jump").value = p.nr; { const d = docs[p.dok]; $("#total").textContent = d ? `${d.antal} (${p.vol})` : pages.length; }
     $("#prev").disabled = idx === 0; $("#next").disabled = idx === pages.length - 1;
     document.title = `${p.nr} – Krigsdagböcker`;
-    loadImage(p.bild);
+    loadImage(imgSrc(p), p.fjarr);
     const tp = $("#textpane");
     tp.innerHTML = `<p class="muted">Laddar ${p.fil} …</p>`;
     let md; try { md = await loadMd(p.fil); } catch (e) { tp.innerHTML = `<p>Kunde inte läsa ${esc(p.fil)} (${esc(e.message)}).</p>`; return; }
@@ -564,7 +567,7 @@
     wireQ(tp);
     if (rad) markRows(tp, rad);
     // förladda nästa bild
-    if (pages[idx + 1]) { const im = new Image(); im.src = pages[idx + 1].bild; }
+    if (pages[idx + 1]) { const im = new Image(); im.src = imgSrc(pages[idx + 1]); }
     if (p.viite) tp.insertAdjacentHTML("beforeend", `<details><summary>Källhänvisning</summary><div class="body md"><p>${esc(p.viite)}</p></div></details>`);
   }
 
@@ -614,7 +617,7 @@
       let md = ""; try { md = await loadMd(p.fil); } catch (e) {}
       const { sections } = splitSections(md);
       const osak = sections.find(s => /^Osäkra passager/.test(s.title));
-      h += `<section class="dokpage"><a class="thumb" href="#${nr}" title="Öppna bild ${nr} med bilden bredvid"><img loading="lazy" src="${p.thumb}" onerror="this.onerror=null;this.src='${p.bild}'" alt="Bild ${nr}"><span>Bild ${p.jakso}${p.datum ? " · " + esc(p.datum) : ""}</span></a>
+      h += `<section class="dokpage"><a class="thumb" href="#${nr}" title="Öppna bild ${nr} med bilden bredvid"><img loading="lazy" src="${REMOTE ? p.fjarr : p.thumb}" onerror="this.onerror=null;this.src='${p.fjarr || p.bild}'" alt="Bild ${nr}"><span>Bild ${p.jakso}${p.datum ? " · " + esc(p.datum) : ""}</span></a>
         <div class="doktext"><h3><a href="#${nr}">Bild ${p.jakso}</a> <span class="badge ${sakClass(p.sakerhet)}">${esc(p.sakerhet)}</span></h3>${renderTransk(p.text, osak ? parseOsakra(osak.body) : {})}</div></section>`;
     }
     $("#dokbody").innerHTML = h;
@@ -660,10 +663,10 @@
     const ns = Math.max(0.05, Math.min(8, scale * f));
     tx = cx - (cx - tx) * (ns / scale); ty = cy - (cy - ty) * (ns / scale); scale = ns; apply();
   }
-  function loadImage(src) {
-    $("#imgload").style.display = "grid"; img.style.visibility = "hidden"; natW = 0; rot = 0;
+  function loadImage(src, reserv) {
+    $("#imgload").textContent = "Laddar bild …"; $("#imgload").style.display = "grid"; img.style.visibility = "hidden"; natW = 0; rot = 0;
     img.onload = () => { natW = img.naturalWidth; natH = img.naturalHeight; $("#imgload").style.display = "none"; img.style.visibility = ""; fit(); };
-    img.onerror = () => { $("#imgload").textContent = "Bilden kunde inte laddas: " + src; };
+    img.onerror = () => { if (reserv && reserv !== src) { const r = reserv; reserv = ""; img.src = r; return; } $("#imgload").textContent = "Bilden kunde inte laddas: " + src; };
     img.src = src;
   }
   pane.addEventListener("wheel", e => { e.preventDefault(); const r = pane.getBoundingClientRect(); zoomAt(e.deltaY < 0 ? 1.15 : 1 / 1.15, e.clientX - r.left, e.clientY - r.top); }, { passive: false });
@@ -734,7 +737,7 @@
     $("#main").className = "list-mode";
     $("#main").innerHTML = `<div class="listwrap md">
       <h1>Om materialet</h1>
-      <p>Transkriptioner av krigsdagböcker (sotapäiväkirjat) ur Kansallisarkistos samlingar. Bilderna kommer från arkivets digitaliserade material via Digihakemisto och Astia. Varje sida har en länk till originalet i Astia och en källhänvisning. Se <a href="#dok" data-view="dok">Volymer</a>.</p>
+      <p>Transkriptioner av krigsdagböcker (sotapäiväkirjat) ur Kansallisarkistos samlingar. Bilderna kommer från arkivets digitaliserade material via Digihakemisto och Astia, och på webbsidan visas de direkt från arkivets server. Varje sida har en länk till originalet i Astia och en källhänvisning. Se <a href="#dok" data-view="dok">Volymer</a>.</p>
       <h2>Hur transkriptionerna är gjorda</h2>
       <ul><li>Texten återges exakt som den står: stavning, förkortningar, radbrytningar och överstrykningar. Inget är moderniserat eller översatt.</li>
       <li>Varje rad är numrerad som i originalet. Det som står i vänstermarginalen (datum, klockslag) visas <span class="marg">så här</span> först på raden.</li>
@@ -753,7 +756,7 @@
       <h2>Tangenter</h2>
       <p><span class="kbd">← →</span> föregående/nästa sida · <span class="kbd">Home / End</span> första/sista · <span class="kbd">+ − 0 1</span> zooma in/ut, anpassa, 1:1 · <span class="kbd">/</span> sök · <span class="kbd">Esc</span> tillbaka till sidvyn</p>
       <h2>Länkar</h2>
-      <ul>${EMBED ? "" : `<li><a href="${REPO.replace("/blob/main/", "")}" target="_blank" rel="noopener">Transkriptionerna på GitHub</a> (privat repo)</li>`}
+      <ul>${EMBED ? "" : `<li><a href="${REPO.replace("/blob/main/", "")}" target="_blank" rel="noopener">Transkriptionerna på GitHub</a> (.md-filerna och skripten)</li>`}
       <li><a href="#" data-view="namn">Namn, orter, förband och förkortningar</a></li></ul></div>`;
     $("#main").querySelectorAll("a[data-view]").forEach(a => a.onclick = e => { e.preventDefault(); setView(a.dataset.view); });
   }
