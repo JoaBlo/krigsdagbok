@@ -43,6 +43,7 @@ eller kör `python3 hamta.py <länk> [bilder]` så läggs raden till automatiskt
 - `beslut.md` – min privata logg, ligger inte i git (repot är publikt)
 - `verktyg/utsnitt.py` – kontrastförstärkta utsnitt (tredjedelar) och inzoomning för läsning
 - `verktyg/lasare.md`, `verktyg/dubbellasare.md` – instruktionerna till läsarna i en omgång
+- `verktyg/rätta.py` – för in besluten efter dubbelläsning (rader, osäkra passager, avsnittet Dubbelläsning)
 - `bygg_namn.py` – fyller i "Förekomster" i namn.md ur transkriptionerna
 
 ## Hänvisningar

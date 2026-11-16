@@ -10,7 +10,8 @@ Rader utan backticks i första kolumnen lämnas orörda (förekomsterna förs d�
 
 Sökningen görs i transkriptionens kodblock, rad för rad, sedan markeringar tagits bort
 ([ ] ? ⸌ ⸍ ~~), så att `Blomqvist` hittas även i [Blomqvist/Blomquist?]. Formen måste stå
-som helt ord (inte inuti ett längre ord). Skiftläge spelar roll.
+som helt ord (inte inuti ett längre ord); en form som slutar med * är ett prefix
+(`Illuk*` hittar Illukka, Illukan). Skiftläge spelar roll.
 Ord som avstavats över radslut hittas inte – lägg i så fall till en sökform för delen.
 """
 import re, pathlib
@@ -40,7 +41,10 @@ ALLA = list(rader())
 def forekomster(former):
     trf = []
     for f in former:
-        rx = re.compile(rf"(?<![{ORD}]){re.escape(f)}" + (rf"(?![{ORD}])" if f[-1] not in ".:" else ""))
+        if f.endswith("*"):  # prefix: `Illuk*` hittar Illukka, Illukan, Illukasta
+            rx = re.compile(rf"(?<![{ORD}]){re.escape(f[:-1])}")
+        else:
+            rx = re.compile(rf"(?<![{ORD}]){re.escape(f)}" + (rf"(?![{ORD}])" if f[-1] not in ".:" else ""))
         trf += [(v, b, n) for v, b, n, t in ALLA if rx.search(t)]
     trf = sorted(set(trf))
     return ", ".join(f"{v}/{b}:{n}" for v, b, n in trf) if trf else "–"
