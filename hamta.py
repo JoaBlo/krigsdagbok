@@ -3,6 +3,7 @@
 
 Användning
   python3 hamta.py                     hämtar allt som saknas enligt tabellen "Volymer" i CLAUDE.md
+                                       och fyller i tomma Anm.-kolumner med volymens titel
   python3 hamta.py <länk> [bilder]     lägger till länken i CLAUDE.md och hämtar
   python3 hamta.py --lista <länk> [sökord …]
                                        visar vad länken innehåller (volymerna i en samling,
@@ -164,6 +165,24 @@ def volymer_i_claude():
     return ut
 
 
+def fyll_anm(lank, titel):
+    """Fyller i tom Anm.-kolumn (eller tom Bilder-kolumn) för länkens rad i CLAUDE.md."""
+    t = CLAUDE.read_text("utf-8")
+    rader = t.split("\n")
+    for i, r in enumerate(rader):
+        c = [x.strip() for x in r.strip().strip("|").split("|")]
+        if r.startswith("|") and c and lank in c[0]:
+            c += [""] * (3 - len(c))
+            if c[2] and c[1]:
+                return
+            c[1] = c[1] or "alla"
+            c[2] = c[2] or titel
+            rader[i] = "| " + " | ".join(c) + " |"
+            CLAUDE.write_text("\n".join(rader), "utf-8")
+            print("  fyllde i raden i CLAUDE.md")
+            return
+
+
 def lagg_till_i_claude(lank, spec, titel):
     t = CLAUDE.read_text("utf-8")
     if lank in t:
@@ -192,4 +211,5 @@ if __name__ == "__main__":
         if not rader:
             print("Inga länkar i tabellen 'Volymer' i CLAUDE.md.")
         for lank, spec in rader:
-            hamta(lank, spec)
+            v = hamta(lank, spec)
+            fyll_anm(lank, v["titel"].split(" - ", 1)[-1])

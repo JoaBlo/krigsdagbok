@@ -4,7 +4,8 @@
 En rad per volym. **Länk** = volymens sida i Digihakemisto (`digihakemisto.net/aineisto/…`),
 en enskild bild (`digihakemisto.net/item/…`) eller Astia (`astia.narc.fi/…?id=…`).
 **Bilder** = `alla`, ett nummer `5`, ett intervall `1–10` eller en lista `3, 5, 12–20`
-(arkivets bildnummer, "jakso"). Lägg till en rad och skriv "hämta och transkribera",
+(arkivets bildnummer, "jakso"). **Anm.** kan lämnas tom – den fylls i med volymens titel
+när bilderna hämtas. Lägg till en rad och skriv "hämta och transkribera",
 eller kör `python3 hamta.py <länk> [bilder]` så läggs raden till automatiskt.
 Är länken en samling i stället för en volym listar hamta.py volymerna i den.
 
