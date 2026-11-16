@@ -41,6 +41,9 @@ eller kör `python3 hamta.py <länk> [bilder]` så läggs raden till automatiskt
 - `namn.md` – personer, orter, förband, skrivarhänder, förkortningar (gemensam för alla volymer)
 - `ordlista.md` – förklaringar av ord och förkortningar, med källa
 - `beslut.md` – min privata logg, ligger inte i git (repot är publikt)
+- `verktyg/utsnitt.py` – kontrastförstärkta utsnitt (tredjedelar) och inzoomning för läsning
+- `verktyg/lasare.md`, `verktyg/dubbellasare.md` – instruktionerna till läsarna i en omgång
+- `bygg_namn.py` – fyller i "Förekomster" i namn.md ur transkriptionerna
 
 ## Hänvisningar
 `10457/005:12` = volym 10457, bild (jakso) 5, rad 12. Inom samma volym räcker `005:12`.
@@ -51,13 +54,14 @@ Du är en erfaren paleograf. Gå igenom volymerna i tabellens ordning och bilder
 2. Hoppa över bilder som redan har en .md-fil.
 3. Läs namn.md innan du börjar. Där finns personer, orter, förband, skrivarhänder,
    lösta förkortningar och konventioner. För in nya namn, orter, förband, händer och
-   förkortningar i namn.md med alla förekomster (`volym/bild:rad`).
+   förkortningar i namn.md med sökformer i backticks (alla stavningar som förekommer).
+   Förekomsterna (`volym/bild:rad`) fylls i av `python3 bygg_namn.py`.
 4. Efter varje omgång (se Omgångar) dubbelläser en annan läsare de osäkra passagerna utan att ha sett
    transkriptionen. Avvikande läsningar antecknas i filen under rubriken "Dubbelläsning".
 5. Är bilden vriden, rätas den upp och sparas rättvänd. Originalet kan alltid hämtas
    igen via länken i kalla.md.
 6. Blek blyerts: det är tillåtet att öka kontrasten i en arbetskopia för att läsa
-   (i scratchpad, inte i bilder/). Notera i filen om det gjorts.
+   (i scratchpad, inte i bilder/; `verktyg/utsnitt.py`). Notera i filen om det gjorts.
 7. Logga beslut i beslut.md i stället för att stanna och fråga.
 
 ## Filens huvud
@@ -117,15 +121,28 @@ Varje transkription börjar så här (fälten används av webbvisaren):
   `## Osäkra passager`; då visas motiveringen vid raden i visaren.
 
 ## Omgångar
-- En omgång = **10–20 bilder** i följd. En omgång slutar alltid vid volymens slut, så att
+- En omgång = **10–20 bilder** i följd (normalt 15). En omgång slutar alltid vid volymens slut, så att
   varje commit bara gäller en volym (sista omgången i en volym kan alltså vara kortare).
+- "kör" = kör omgång efter omgång i tabellens ordning tills allt är klart eller användaren säger stopp.
 - Ordningen i varje omgång:
-  1. transkribera bilderna;
-  2. dubbelläsning av de osäkra passagerna (se Arbetssätt 4) och rättelser efter den;
-  3. uppdatera namn.md och ordlista.md;
-  4. kör `python3 bygg_index.py`;
-  5. kontrollera `git status`, committa med meddelandet "10457: Transkription 001–015"
+  1. **Förstaläsning, parallellt:** dela omgången i 3 block om ca 5 bilder i följd och starta en
+     läsare (hjälpagent) per block med instruktionen i `verktyg/lasare.md`. Ge varje läsare volym,
+     bilder, scratchpad-mapp och de sista raderna av sidan före blocket.
+  2. **Dubbelläsning:** en ny läsare med `verktyg/dubbellasare.md` får alla osäkra ställen
+     (`NNN:rad` + vad som är osäkert, utan förstaläsningen).
+  3. **Avgörande:** jämför läsningarna; titta själv i bilden där de skiljer sig. Rätta, eller sätt
+     båda alternativen `[a/b?]`. Skriv avsnittet `## Dubbelläsning` (tabell: Rad | Första läsningen |
+     Andra läsningen | Beslut) i varje fil.
+  4. För in nytt i namn.md (sökformer, roll, anm.); kör `python3 bygg_namn.py` och
+     `python3 bygg_index.py`.
+  5. Kontrollera `git status`, committa med meddelandet "10457: Transkription 006–020"
      (rätt volym och nummer) och pusha.
+- Läsbudget: 3 utsnitt + högst 5 inzoomningar per sida (10 på mycket svåra sidor); dubbelläsaren
+  högst 2 per ställe. Hellre `[ord?]` än fler inzoomningar.
+- Ordlistan (ordlista.md, med kontrollerade källor och citat) görs som ett eget pass när en volym är
+  klar, inte i varje omgång.
+- För att spara tokens: starta gärna en ny session (`/clear`) mellan omgångarna; allt som behövs
+  finns i filerna.
 - **Pusha aldrig före dubbelläsningen.** Det som syns på webbsidan ska vara dubbelläst,
   inte ett första utkast.
 - Bilderna pushas aldrig (de ligger i .gitignore); det som pushas är .md-filerna,
