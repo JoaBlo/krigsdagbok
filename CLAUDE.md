@@ -19,7 +19,7 @@ eller kör `python3 hamta.py <länk> [bilder]` så läggs raden till automatiskt
 | https://digihakemisto.net/aineisto/2373603603 | 1-39 | 10462 Jalkaväkirykmentti 13. 1. komppania, 1.8.1943 - 13.7.1944 1943-1944 |
 | https://digihakemisto.net/aineisto/2373594060 | alla | 10454 Jalkaväkirykmentti 13. Esikunta, 1.1.1944 - 23.5.1944 1944-1944 |
 | https://digihakemisto.net/aineisto/2373595137 | alla | 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944 |
-| https://digihakemisto.net/aineisto/2373596178 | alla | |
+| https://digihakemisto.net/aineisto/2373596178 | alla | 10456 Jalkaväkirykmentti 13. Esikunta - |
 
 
 

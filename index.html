@@ -48,7 +48,7 @@
   .pager { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
   .pager input { width: 4.5em; text-align: center; font-family: var(--mono); }
   .pager select { max-width: 42vw; }
-  .pager #vol { max-width: 26vw; }
+  .pager #vol { width: 6.5em; font-family: var(--mono); }
   .kbd { font-family: var(--mono); font-size: 12px; color: var(--muted); }
 
   main { flex: 1; min-height: 0; display: grid; grid-template-columns: 1fr 6px 1fr; }
@@ -217,7 +217,7 @@
     main.text-only { grid-template-rows: 1fr; } main.text-only #imgpane { display: none; }
     main.img-only { grid-template-rows: 1fr; } main.img-only #textpane { display: none; }
     #textpane { min-width: 0; }
-    .pager select, .pager #vol { max-width: 60vw; }
+    .pager select { max-width: 60vw; }
     .onlymobile { display: inline-flex; }
   }
   @media (min-width: 901px) { .onlymobile { display: none; } }
@@ -806,6 +806,10 @@
   // ⏮ ⏭ = första/sista transkriberade sidan i aktuell volym; ◀ ▶ går vidare över volymgränsen
   $("#first").onclick = () => showPage(pages.findIndex(p => p.vol === curVol));
   $("#last").onclick = () => { let i = pages.length - 1; while (i > 0 && pages[i].vol !== curVol) i--; showPage(i); };
+  // stängd väljare visar bara signum (10457); när den öppnas visas hela titlarna
+  const volText = full => [...$("#vol").options].forEach(o => { o.textContent = full ? o.dataset.full : o.dataset.short; });
+  ["mousedown", "focus", "touchstart"].forEach(ev => $("#vol").addEventListener(ev, () => volText(true)));
+  ["blur", "change"].forEach(ev => $("#vol").addEventListener(ev, () => volText(false)));
   $("#vol").onchange = e => { const i = pages.findIndex(p => p.dok === +e.target.value); if (i >= 0) showPage(i); };
   let jumpVol = null;
   function fillJump(vol) {
@@ -849,7 +853,8 @@
     pages = Array.isArray(d) ? d : d.sidor; docs = d.dokument || []; kron = d.kronologi || []; buildGloss(d.ordlista);
     pageSet = new Set(pages.map(p => p.nr)); $("#total").textContent = pages.length;
     $("#vol").innerHTML = docs.map(d => { const n = d.sidor.length, t = `${d.signum} · ${d.titel}`;
-      return `<option value="${d.id}"${n ? "" : " disabled"}>${esc(t.length > 70 ? t.slice(0, 69) + "…" : t)} (${n ? n + " transkr." : "ej transkr."})</option>`; }).join("");
+      const full = `${t.length > 70 ? t.slice(0, 69) + "…" : t} (${n ? n + " transkr." : "ej transkr."})`;
+      return `<option value="${d.id}"${n ? "" : " disabled"} data-short="${esc(d.signum)}" data-full="${esc(full)}" title="${esc(full)}">${esc(d.signum)}</option>`; }).join("");
     if (!pages.length) { $("#textpane").innerHTML = '<p class="muted">Inga transkriptioner ännu.</p>'; if (!goHash()) setView("dok"); return; }
     if (!goHash()) showPage(0);
   }).catch(e => { $("#textpane").innerHTML = `<p>Kunde inte läsa pages.json (${esc(e.message)}). Kör <code>python3 bygg_index.py</code> och sedan <code>python3 -m http.server</code> i projektmappen, eller öppna delningsversionen (<code>python3 bygg_delning.py</code>).</p>`; });
