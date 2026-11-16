@@ -13,6 +13,9 @@ eller kör `python3 hamta.py <länk> [bilder]` så läggs raden till automatiskt
 |---|---|---|
 | https://digihakemisto.net/aineisto/2373598065 | alla | 10457 Jalkaväkirykmentti 13. 1. komppania, 12.6.1941 - 18.10.1941 |
 
+
+
+
 ## Kontext
 - Typ av dokument: krigsdagböcker (sotapäiväkirjat) ur Kansallisarkistos samlingar, ca 1939–1945
 - Språk: svenska, ev. finska. Transkribera på originalspråket; översätt inte.
@@ -39,7 +42,7 @@ Du är en erfaren paleograf. Gå igenom volymerna i tabellens ordning och bilder
 3. Läs namn.md innan du börjar. Där finns personer, orter, förband, skrivarhänder,
    lösta förkortningar och konventioner. För in nya namn, orter, förband, händer och
    förkortningar i namn.md med alla förekomster (`volym/bild:rad`).
-4. Efter varje omgång dubbelläser en annan läsare de osäkra passagerna utan att ha sett
+4. Efter varje omgång (se Omgångar) dubbelläser en annan läsare de osäkra passagerna utan att ha sett
    transkriptionen. Avvikande läsningar antecknas i filen under rubriken "Dubbelläsning".
 5. Är bilden vriden, rätas den upp och sparas rättvänd. Originalet kan alltid hämtas
    igen via länken i kalla.md.
@@ -103,9 +106,20 @@ Varje transkription börjar så här (fälten används av webbvisaren):
 - Osäkra passager listas i en tabell `| Rad | Bästa gissning | Varför |` under rubriken
   `## Osäkra passager`; då visas motiveringen vid raden i visaren.
 
-## Efter varje omgång
-Kör `python3 bygg_index.py`, committa med meddelandet "10457: Transkription 001–010"
-(rätt volym och nummer) och pusha.
+## Omgångar
+- En omgång = **10–20 bilder** i följd. En omgång slutar alltid vid volymens slut, så att
+  varje commit bara gäller en volym (sista omgången i en volym kan alltså vara kortare).
+- Ordningen i varje omgång:
+  1. transkribera bilderna;
+  2. dubbelläsning av de osäkra passagerna (se Arbetssätt 4) och rättelser efter den;
+  3. uppdatera namn.md och ordlista.md;
+  4. kör `python3 bygg_index.py`;
+  5. kontrollera `git status`, committa med meddelandet "10457: Transkription 001–015"
+     (rätt volym och nummer) och pusha.
+- **Pusha aldrig före dubbelläsningen.** Det som syns på webbsidan ska vara dubbelläst,
+  inte ett första utkast.
+- Bilderna pushas aldrig (de ligger i .gitignore); det som pushas är .md-filerna,
+  namn.md, ordlista.md och pages.json.
 
 **Repot JoaBlo/krigsdagbok är publikt** och visas som webbsida via GitHub Pages
 (https://joablo.github.io/krigsdagbok/). Allt som pushas syns direkt för alla och finns kvar
