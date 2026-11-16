@@ -64,7 +64,8 @@ for k in kallor:
         nr = p.stem
         b = perbild.get(nr, {})
         doktyp = falt(t, "Dokumenttyp")
-        mm = re.search(r"^## Helhetsbedömning\s*\n+\s*\*\*Säkerhet:\s*([^*]+?)\.?\*\*", t, re.M)
+        # Säkerhet-raden kan stå direkt under rubriken eller efter en löptext
+        mm = re.search(r"^## Helhetsbedömning\b.*?^\*\*Säkerhet:\s*([^*]+?)\.?\*\*", t, re.M | re.S)
         sak = re.sub(r"[.,;:]+$", "", mm.group(1).strip()) if mm else ""
         mm = re.search(r"^```\n(.*?)^```", t, re.M | re.S)
         block = mm.group(1) if mm else ""
