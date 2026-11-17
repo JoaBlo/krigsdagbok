@@ -551,6 +551,7 @@
     const headRest = head.replace(/^# .*\n/, "").replace(/^\*\*Dokumenttyp:\*\*.*$/m, "").trim();
     const transk = sections.find(s => s.title === "Transkription");
     const osak = sections.find(s => /^Osäkra passager/.test(s.title));
+    const over = sections.find(s => /^Översättning/.test(s.title));
     const notes = osak ? parseOsakra(osak.body) : {};
     let block = "", anm = "";
     if (transk) { const m = transk.body.match(/```\n([\s\S]*?)```([\s\S]*)/); if (m) { block = m[1]; anm = m[2].trim(); } else block = transk.body; }
@@ -567,9 +568,12 @@
     h += dokRad + orig + `<div class="doktyp">${inline(dok)}</div>`;
     h += renderTransk(block, notes);
     h += `<div class="legend"><span><mark class="unsure">[ord?]</mark> osäker läsning</span><span><mark class="alt">[a/b?]</mark> två möjliga</span><span><mark class="unread">[oläsligt]</mark></span><span><mark class="missing">[...]</mark> skadad/dold text</span><span><del>struket</del> överstruket</span><span><mark class="ins">⸌ord⸍</mark> tillagt ovanför raden</span><span><span class="marg">30.6.</span> i vänstermarginalen</span><span><mark class="note">[bomärke]</mark> beskrivning</span><span><span class="gl">ord</span> förklaring i ordlistan (peka eller tryck)</span><span>Klicka <b>?</b> vid en rad för läsarens motivering</span></div>`;
+    // svensk översättning av finska sidor: öppen, direkt under transkriptionen, med samma radnummer
+    if (over) { const m = over.body.match(/```\n([\s\S]*?)```([\s\S]*)/);
+      h += `<details open class="oversattning"><summary>${esc(over.title)}</summary>${renderTransk(m ? m[1] : over.body, {})}${m && m[2].trim() ? `<div class="body md">${renderMd(m[2])}</div>` : ""}</details>`; }
     const det = (title, body, open) => body && body.trim() ? `<details${open ? " open" : ""}><summary>${esc(title)}</summary><div class="body md">${renderMd(body)}</div></details>` : "";
     if (anm) h += det("Anmärkningar till transkriptionen", anm.replace(/^Anmärkningar:\s*/i, ""), false);
-    const before = sections.filter(s => !/^(Transkription|Osäkra passager|Helhetsbedömning|Dubbelläsning|Rättelser|Tredje läsning|Maskinläsning)/.test(s.title));
+    const before = sections.filter(s => !/^(Transkription|Översättning|Osäkra passager|Helhetsbedömning|Dubbelläsning|Rättelser|Tredje läsning|Maskinläsning)/.test(s.title));
     h += det("Om bilden och handen", headRest, false);
     for (const s of before) h += det(s.title, s.body, false);
     if (osak) h += det("Osäkra passager", osak.body, true);

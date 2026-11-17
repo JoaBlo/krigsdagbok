@@ -28,7 +28,9 @@ eller kör `python3 hamta.py <länk> [bilder]` så läggs raden till automatiskt
 
 ## Kontext
 - Typ av dokument: krigsdagböcker (sotapäiväkirjat) ur Kansallisarkistos samlingar, ca 1939–1945
-- Språk: svenska, ev. finska. Transkribera på originalspråket; översätt inte.
+- Språk: svenska och finska. Transkribera på originalspråket. Sidor (eller delar av sidor) på finska får
+  dessutom en svensk översättning i avsnittet `## Översättning (svenska)` direkt efter transkriptionen
+  (se Regler 9).
 - Skrift: ofta blyerts på rutat papper, snabb handstil, militära förkortningar,
   datum och klockslag i vänstermarginalen.
 - Namn som förekommer: se namn.md.
@@ -43,6 +45,7 @@ eller kör `python3 hamta.py <länk> [bilder]` så läggs raden till automatiskt
 - `beslut.md` – min privata logg, ligger inte i git (repot är publikt)
 - `verktyg/utsnitt.py` – kontrastförstärkta utsnitt (tredjedelar) och inzoomning för läsning
 - `verktyg/lasare.md`, `verktyg/dubbellasare.md` – instruktionerna till läsarna i en omgång
+- `verktyg/oversattare.md` – instruktion för den svenska översättningen av finska sidor
 - `verktyg/rätta.py` – för in besluten efter dubbelläsning (rader, osäkra passager, avsnittet Dubbelläsning)
 - `bygg_namn.py` – fyller i "Förekomster" i namn.md ur transkriptionerna
 
@@ -82,7 +85,7 @@ Varje transkription börjar så här (fälten används av webbvisaren):
 
 ## Regler för transkription
 1. Återge texten exakt som den står. Behåll stavning, förkortningar, radbrytningar och
-   överstrykningar (~~text~~). Modernisera inte och översätt inte.
+   överstrykningar (~~text~~). Modernisera inte och översätt inte i transkriptionen.
 2. Numrera varje rad (1, 2, 3 …) så att numreringen motsvarar originalets rader.
    Slå aldrig ihop rader. Transkriptionen står i ett kodblock (```) under rubriken
    `## Transkription`, en rad per originalrad: radnummer, två mellanslag, text.
@@ -102,6 +105,12 @@ Varje transkription börjar så här (fälten används av webbvisaren):
 8. Extern källa (ordböcker, förkortningslistor, matriklar, andra arkiv m.m.): skriv alltid
    "Extern källa:", källans namn, post-ID eller URL och vad den stöder.
    Externa uppgifter förs aldrig in omarkerade i transkriptionen.
+9. Finska sidor: under transkriptionen (före `## Osäkra passager`) ett avsnitt `## Översättning (svenska)`
+   med ett kodblock med **samma radnummer** som transkriptionen, en svensk rad per finsk rad
+   (svenska rader i originalet utelämnas). Osäkra läsningar följer med som `[ord?]`, `{marg: …}` och
+   `{skiss}` behålls, egennamn och förkortningar lämnas oöversatta. Under blocket:
+   "Översättning: Claude, utifrån den dubbellästa transkriptionen; ej granskad." Instruktion:
+   `verktyg/oversattare.md`. Översättningen görs efter dubbelläsningen.
 
 ## Förklaringar: länka, annars märkt gissning
 - Varje förklaring (av förkortningar, ord, grader, förband, platser) ska om möjligt ha en
@@ -134,9 +143,11 @@ Varje transkription börjar så här (fälten används av webbvisaren):
   3. **Avgörande:** jämför läsningarna; titta själv i bilden där de skiljer sig. Rätta, eller sätt
      båda alternativen `[a/b?]`. Skriv avsnittet `## Dubbelläsning` (tabell: Rad | Första läsningen |
      Andra läsningen | Beslut) i varje fil.
-  4. För in nytt i namn.md (sökformer, roll, anm.); kör `python3 bygg_namn.py` och
+  4. **Översättning:** för finska sidor i omgången, en översättare (hjälpagent, bara text) med
+     `verktyg/oversattare.md`.
+  5. För in nytt i namn.md (sökformer, roll, anm.); kör `python3 bygg_namn.py` och
      `python3 bygg_index.py`.
-  5. Kontrollera `git status`, committa med meddelandet "10457: Transkription 006–020"
+  6. Kontrollera `git status`, committa med meddelandet "10457: Transkription 006–020"
      (rätt volym och nummer) och pusha.
 - Läsbudget: 3 utsnitt + högst 5 inzoomningar per sida (10 på mycket svåra sidor); dubbelläsaren
   högst 2 per ställe. Hellre `[ord?]` än fler inzoomningar.
