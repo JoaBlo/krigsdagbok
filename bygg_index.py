@@ -47,7 +47,7 @@ ordning = ["".join(g) for g in volymordning()]
 kallor = [json.loads(p.read_text("utf-8")) for p in (ROT / "volymer").glob("*/kalla.json")]
 kallor.sort(key=lambda k: (ordning.index(k["aineisto"]) if k["aineisto"] in ordning else 999, k["signum"]))
 
-sidor, dokument, kronologi = [], [], []
+sidor, dokument, kronologi, utkast = [], [], [], []
 for k in kallor:
     sig = k["signum"]
     vmapp = ROT / "volymer" / sig
@@ -62,6 +62,9 @@ for k in kallor:
     for p in sorted((vmapp / "transkriptioner").glob("[0-9]*.md")):
         t = p.read_text(encoding="utf-8")
         nr = p.stem
+        if "## Dubbelläsning" not in t:  # utkast (ej dubbelläst) visas aldrig på webbsidan
+            utkast.append(f"{sig}/{nr}")
+            continue
         b = perbild.get(nr, {})
         doktyp = falt(t, "Dokumenttyp")
         # Säkerhet-raden kan stå direkt under rubriken eller efter en löptext
@@ -138,3 +141,5 @@ data = {"sidor": sidor, "dokument": dokument, "kronologi": kronologi, "ordlista"
 UT.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 print(f"{len(dokument)} volymer, {len(sidor)} transkriberade sidor, {len(kronologi)} daterade, "
       f"{len(ordlista)} ord → {UT.name} ({UT.stat().st_size // 1024} kB)")
+if utkast:
+    print(f"Ej med (inte dubbellästa än): {', '.join(utkast)}")

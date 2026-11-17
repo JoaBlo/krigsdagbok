@@ -25,6 +25,8 @@ def rader():
     """(volym, bild, radnr, text) för alla transkriberade rader."""
     for p in sorted((ROT / "volymer").glob("*/transkriptioner/[0-9]*.md")):
         t = p.read_text("utf-8")
+        if "## Dubbelläsning" not in t:  # utkast räknas inte (samma spärr som bygg_index.py)
+            continue
         m = re.search(r"^## Transkription\s*\n```\n(.*?)^```", t, re.M | re.S)
         if not m:
             continue
