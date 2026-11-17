@@ -865,7 +865,21 @@
       return `<option value="${d.id}"${n ? "" : " disabled"} data-short="${esc(d.signum)}" data-full="${esc(full)}" title="${esc(full)}">${esc(d.signum)}</option>`; }).join("");
     if (!pages.length) { $("#textpane").innerHTML = '<p class="muted">Inga transkriptioner ännu.</p>'; if (!goHash()) setView("dok"); return; }
     if (!goHash()) showPage(0);
-  }).catch(e => { $("#textpane").innerHTML = `<p>Kunde inte läsa pages.json (${esc(e.message)}). Kör <code>python3 bygg_index.py</code> och sedan <code>python3 -m http.server</code> i projektmappen, eller öppna delningsversionen (<code>python3 bygg_delning.py</code>).</p>`; });
+  }).catch(e => {
+    const lokal = location.protocol === "file:";
+    const temp = /\/(Temp|tmp)\/|\.zip/i.test(decodeURIComponent(location.href));
+    $("#textpane").innerHTML = lokal
+      ? `<div style="max-width:640px"><h2>Sidan hittar inte sina filer</h2>
+         <p>Filen <b>data.js</b> ska ligga i samma mapp som den här sidan, men den hittades inte.</p>
+         ${temp ? `<p><b>Det ser ut som att sidan öppnats direkt inifrån zip-filen.</b> Då kopierar Windows bara den här enda filen till en tillfällig mapp.</p>` : ""}
+         <p><b>Gör så här:</b></p><ol>
+         <li>Stäng den här fliken.</li>
+         <li>Högerklicka på zip-filen och välj <b>Extrahera alla…</b> (Windows) – eller dubbelklicka på den (Mac). Klicka på <b>Extrahera</b>.</li>
+         <li>Öppna den <b>uppackade</b> mappen (den har ingen blixtlås-ikon) och dubbelklicka på <b>index.html</b> där.</li></ol>
+         <p class="muted">Sidan öppnades från: ${esc(decodeURIComponent(location.href))}</p></div>`
+      : `<p>Kunde inte läsa pages.json (${esc(e.message)}). Kör <code>python3 bygg_index.py</code> och <code>python3 -m http.server</code> i projektmappen, eller använd delningsversionen.</p>`;
+    $("#imgpane").style.display = "none"; $("#splitter").style.display = "none"; $("#main").style.gridTemplateColumns = "1fr";
+  });
 })();
 </script>
 </body>
