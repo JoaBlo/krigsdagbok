@@ -177,6 +177,7 @@
   #gltip .muted { font-size: .85em; margin-top: 4px; }
   #gltip[hidden] { display: none; }
   .md blockquote { margin: 8px 0 16px; padding: 8px 14px; border-left: 4px solid var(--accent); background: color-mix(in srgb, var(--accent) 7%, transparent); border-radius: 0 6px 6px 0; }
+  .sida { display: inline-block; margin-right: .6em; padding: 0 .4em; border-radius: 4px; background: var(--accent); color: var(--bg); font-family: var(--sans); font-size: .8em; }
   .marg { display: inline-block; min-width: 4.2em; margin-right: .6em; padding: 0 .3em; border-left: 3px solid var(--accent); color: var(--muted); font-family: var(--mono); font-size: .9em; }
   .volrad { margin: 4px 0 10px; }
   .berattelse { max-width: 760px; font-family: var(--serif); font-size: 1.06em; line-height: 1.6; }
@@ -380,6 +381,7 @@
     // s är redan HTML-escapad
     return s
       .replace(/~~([^~]+)~~/g, "<del>$1</del>")
+      .replace(/\{sida:\s*([VH])\}/g, (m, s) => `<span class="sida" title="Uppslag: här börjar ${s === "V" ? "vänstra" : "högra"} sidan">${s === "V" ? "vänster sida" : "höger sida"}</span>`)
       .replace(/\{marg:\s*([^}]*)\}/g, '<span class="marg" title="Står i vänstermarginalen">$1</span>')
       .replace(/⸌([^⸍]*)⸍/g, '<mark class="ins" title="Tillagt ovanför raden av skrivaren">⸌$1⸍</mark>')
       .replace(/\[oläsligt\]/g, '<mark class="unread" title="Går inte att läsa">[oläsligt]</mark>')
