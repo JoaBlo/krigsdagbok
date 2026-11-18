@@ -34,7 +34,7 @@ Regler:
    originalet ("Kamennyi Navolok", "maj. Bonde"). **Vanliga förkortningar översätts** till svensk
    motsvarighet eller förkortning, så att raden blir läsbar på svenska, t.ex.:
    Amp. = Sköt, vih. = fiendens/fienden, tyk. = art. (artilleri), krh. = grk. (granatkastare),
-   pien. krh. = lätt grk., kran. = gran., kpl. = st., joukk. = pl. (pluton), kompp./K = komp.,
+   kev. krh. = lätt grk., pien. krh./pienois krh. = min. grk. (miniatyrgranatkastare; så kallar den svenska skrivaren samma vapen, 10462/012:7, 014:30), kran. = gran., kpl. = st., joukk. = pl. (pluton), kompp./K = komp.,
    patl. = bat., patl. kom. = bat.kom., kk = ksp. (kulspruta), pk = ksg. (kulsprutegevär),
    kiv. = gev., vänr. = fänr., luutn. = löjtn., kapt. = kapt., maj. = major, alik. = undersergeant,
    stm./sot. = soldat, Ilm. = Anmälde, Sää = Väder, vart. = vakt-, tied. = spanings-.
