@@ -28,13 +28,21 @@ def falt(t, namn):
     return re.sub(r"\s+$", "", m.group(1)) if m else ""
 
 
+ROMERSKA = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6, "VII": 7, "VIII": 8, "IX": 9, "X": 10, "XI": 11, "XII": 12}
+
+
 def iso(datum, ar_volym):
-    """'30.6.[1941]' → '1941-06-30'; år saknas → volymens första år."""
-    m = re.search(r"(\d{1,2})\s*\.\s*(\d{1,2})\s*\.?\s*\[?(\d{4})?", datum)
+    """'30.6.[1941]', '1.1.44', '16 IV -44' → ISO-datum; år saknas → volymens första år.
+    Tvåsiffriga årtal godtas bara för 39–45 (krigsåren), så att klockslag inte tas för år."""
+    m = re.search(r"(\d{1,2})\s*(?:\.\s*(\d{1,2})|[.\s]\s*(XII|XI|X|IX|VIII|VII|VI|V|IV|III|II|I)\b)"
+                  r"\s*\.?\s*-?\s*\[?(\d{4}|39|4[0-5])?(?!\d)", datum)
     if not m:
         return ""
-    ar = m.group(3) or ar_volym
-    return f"{ar}-{int(m.group(2)):02d}-{int(m.group(1)):02d}" if ar else ""
+    manad = int(m.group(2)) if m.group(2) else ROMERSKA[m.group(3)]
+    ar = m.group(4) or ar_volym
+    if ar and len(ar) == 2:
+        ar = "19" + ar
+    return f"{ar}-{manad:02d}-{int(m.group(1)):02d}" if ar else ""
 
 
 def volymordning():
