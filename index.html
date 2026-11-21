@@ -383,6 +383,7 @@
       .replace(/~~([^~]+)~~/g, "<del>$1</del>")
       .replace(/\{sida:\s*([VH])\}/g, (m, s) => `<span class="sida" title="Uppslag: här börjar ${s === "V" ? "vänstra" : "högra"} sidan">${s === "V" ? "vänster sida" : "höger sida"}</span>`)
       .replace(/\{marg:\s*([^}]*)\}/g, '<span class="marg" title="Står i vänstermarginalen">$1</span>')
+      .replace(/\{upp och ned\}/g, '<span class="sida" title="Raden står upp och ned på sidan">upp och ned</span>')
       .replace(/⸌([^⸍]*)⸍/g, '<mark class="ins" title="Tillagt ovanför raden av skrivaren">⸌$1⸍</mark>')
       .replace(/\[oläsligt\]/g, '<mark class="unread" title="Går inte att läsa">[oläsligt]</mark>')
       .replace(/\[\.\.\.\]/g, '<mark class="missing" title="Skadad, dold eller saknad text">[...]</mark>')
