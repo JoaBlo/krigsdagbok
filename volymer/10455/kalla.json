@@ -1,0 +1,354 @@
+{
+ "titel": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944",
+ "signum": "10455",
+ "aineisto": "2373595137",
+ "digihakemisto": "https://digihakemisto.net/aineisto/2373595137",
+ "astia": "https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373595137",
+ "antal_i_volymen": 43,
+ "bilder": [
+  {
+   "jakso": 1,
+   "fil": "001.jpg",
+   "fileId": "5773736736",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736736&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 1; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736736&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 2,
+   "fil": "002.jpg",
+   "fileId": "5773736742",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736742&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 2; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736742&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 3,
+   "fil": "003.jpg",
+   "fileId": "5773736739",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736739&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 3; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736739&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 4,
+   "fil": "004.jpg",
+   "fileId": "5773736748",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736748&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 4; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736748&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 5,
+   "fil": "005.jpg",
+   "fileId": "5773736745",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736745&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 5; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736745&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 6,
+   "fil": "006.jpg",
+   "fileId": "5773736754",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736754&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 6; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736754&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 7,
+   "fil": "007.jpg",
+   "fileId": "5773736751",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736751&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 7; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736751&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 8,
+   "fil": "008.jpg",
+   "fileId": "5773736760",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736760&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 8; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736760&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 9,
+   "fil": "009.jpg",
+   "fileId": "5773736757",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736757&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 9; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736757&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 10,
+   "fil": "010.jpg",
+   "fileId": "5773736772",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736772&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 10; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736772&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 11,
+   "fil": "011.jpg",
+   "fileId": "5773736769",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736769&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 11; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736769&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 12,
+   "fil": "012.jpg",
+   "fileId": "5773736766",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736766&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 12; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736766&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 13,
+   "fil": "013.jpg",
+   "fileId": "5773736763",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736763&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 13; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736763&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 14,
+   "fil": "014.jpg",
+   "fileId": "5773736784",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736784&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 14; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736784&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 15,
+   "fil": "015.jpg",
+   "fileId": "5773736781",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736781&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 15; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736781&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 16,
+   "fil": "016.jpg",
+   "fileId": "5773736790",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736790&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 16; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736790&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 17,
+   "fil": "017.jpg",
+   "fileId": "5773736787",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736787&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 17; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736787&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 18,
+   "fil": "018.jpg",
+   "fileId": "5773736796",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736796&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 18; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736796&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 19,
+   "fil": "019.jpg",
+   "fileId": "5773736793",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736793&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 19; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736793&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 20,
+   "fil": "020.jpg",
+   "fileId": "5773736712",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736712&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 20; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736712&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 21,
+   "fil": "021.jpg",
+   "fileId": "5773736715",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736715&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 21; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736715&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 22,
+   "fil": "022.jpg",
+   "fileId": "5773736718",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736718&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 22; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736718&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 23,
+   "fil": "023.jpg",
+   "fileId": "5773736721",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736721&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 23; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736721&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 24,
+   "fil": "024.jpg",
+   "fileId": "5773736700",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736700&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 24; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736700&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 25,
+   "fil": "025.jpg",
+   "fileId": "5773736703",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736703&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 25; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736703&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 26,
+   "fil": "026.jpg",
+   "fileId": "5773736706",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736706&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 26; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736706&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 27,
+   "fil": "027.jpg",
+   "fileId": "5773736709",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736709&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 27; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736709&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 28,
+   "fil": "028.jpg",
+   "fileId": "5773736724",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736724&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 28; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736724&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 29,
+   "fil": "029.jpg",
+   "fileId": "5773736697",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736697&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 29; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736697&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 30,
+   "fil": "030.jpg",
+   "fileId": "5773736802",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736802&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 30; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736802&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 31,
+   "fil": "031.jpg",
+   "fileId": "5773736799",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736799&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 31; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736799&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 32,
+   "fil": "032.jpg",
+   "fileId": "5773736820",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736820&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 32; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736820&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 33,
+   "fil": "033.jpg",
+   "fileId": "5773736817",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736817&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 33; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736817&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 34,
+   "fil": "034.jpg",
+   "fileId": "5773736814",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736814&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 34; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736814&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 35,
+   "fil": "035.jpg",
+   "fileId": "5773736811",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736811&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 35; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736811&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 36,
+   "fil": "036.jpg",
+   "fileId": "5773736808",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736808&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 36; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736808&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 37,
+   "fil": "037.jpg",
+   "fileId": "5773736805",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736805&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 37; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736805&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 38,
+   "fil": "038.jpg",
+   "fileId": "5773736778",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736778&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 38; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736778&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 39,
+   "fil": "039.jpg",
+   "fileId": "5773736775",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736775&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 39; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736775&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 40,
+   "fil": "040.jpg",
+   "fileId": "5773736730",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736730&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 40; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736730&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 41,
+   "fil": "041.jpg",
+   "fileId": "5773736733",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736733&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 41; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736733&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 42,
+   "fil": "042.jpg",
+   "fileId": "5773736694",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736694&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 42; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736694&aineistoId=2373595137 / Viitattu 16.11.2026"
+  },
+  {
+   "jakso": 43,
+   "fil": "043.jpg",
+   "fileId": "5773736727",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773736727&aineistoId=2373595137",
+   "hamtad": "2026-11-16",
+   "viite": "Sotapäiväkirjat-kokoelma - 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944, jakso 43; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773736727&aineistoId=2373595137 / Viitattu 16.11.2026"
+  }
+ ]
+}

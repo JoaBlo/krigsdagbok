@@ -20,10 +20,11 @@ eller kör `python3 hamta.py <länk> [bilder]` så läggs raden till automatiskt
 | https://digihakemisto.net/aineisto/2373594060 | alla | 10454 Jalkaväkirykmentti 13. Esikunta, 1.1.1944 - 23.5.1944 1944-1944 |
 | https://digihakemisto.net/aineisto/2373595137 | alla | 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944 |
 | https://digihakemisto.net/aineisto/2373596178 | alla | 10456 Jalkaväkirykmentti 13. Esikunta - |
-
-
-
-
+| https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373589045 | alla | 10449 Jalkaväkirykmentti 13. Esikunta, 15.6.1941 - 7.9.1941 1941-1941 |
+| https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373589846 | alla | 10450 Jalkaväkirykmentti 13. Esikunta, 13.9.1941 - 5.2.1942 1941-1942 |
+| https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373591055 | alla | 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942 |
+| https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373592230 | alla | 10452 Jalkaväkirykmentti 13. Esikunta, 24.4.1942 - 17.10.1942 1942-1942 |
+| https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373593405 | alla | 10453 Jalkaväkirykmentti 13. Esikunta, 18.10.1942 - 7.1.1943 1942-1943 |
 
 
 ## Kontext
