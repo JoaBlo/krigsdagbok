@@ -1,0 +1,402 @@
+{
+ "titel": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942",
+ "signum": "10451",
+ "aineisto": "2373591055",
+ "digihakemisto": "https://digihakemisto.net/aineisto/2373591055",
+ "astia": "https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373591055",
+ "antal_i_volymen": 49,
+ "bilder": [
+  {
+   "jakso": 1,
+   "fil": "001.jpg",
+   "fileId": "5773849914",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849914&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 1; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849914&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 2,
+   "fil": "002.jpg",
+   "fileId": "5773849920",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849920&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 2; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849920&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 3,
+   "fil": "003.jpg",
+   "fileId": "5773849917",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849917&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 3; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849917&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 4,
+   "fil": "004.jpg",
+   "fileId": "5773849926",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849926&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 4; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849926&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 5,
+   "fil": "005.jpg",
+   "fileId": "5773849923",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849923&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 5; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849923&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 6,
+   "fil": "006.jpg",
+   "fileId": "5773849932",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849932&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 6; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849932&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 7,
+   "fil": "007.jpg",
+   "fileId": "5773849929",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849929&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 7; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849929&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 8,
+   "fil": "008.jpg",
+   "fileId": "5773849938",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849938&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 8; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849938&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 9,
+   "fil": "009.jpg",
+   "fileId": "5773849935",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849935&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 9; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849935&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 10,
+   "fil": "010.jpg",
+   "fileId": "5773849953",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849953&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 10; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849953&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 11,
+   "fil": "011.jpg",
+   "fileId": "5773849950",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849950&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 11; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849950&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 12,
+   "fil": "012.jpg",
+   "fileId": "5773849944",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849944&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 12; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849944&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 13,
+   "fil": "013.jpg",
+   "fileId": "5773849941",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849941&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 13; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849941&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 14,
+   "fil": "014.jpg",
+   "fileId": "5773849947",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849947&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 14; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849947&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 15,
+   "fil": "015.jpg",
+   "fileId": "5773849962",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849962&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 15; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849962&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 16,
+   "fil": "016.jpg",
+   "fileId": "5773849971",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849971&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 16; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849971&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 17,
+   "fil": "017.jpg",
+   "fileId": "5773849968",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849968&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 17; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849968&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 18,
+   "fil": "018.jpg",
+   "fileId": "5773849977",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849977&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 18; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849977&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 19,
+   "fil": "019.jpg",
+   "fileId": "5773849974",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849974&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 19; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849974&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 20,
+   "fil": "020.jpg",
+   "fileId": "5773849878",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849878&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 20; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849878&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 21,
+   "fil": "021.jpg",
+   "fileId": "5773849881",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849881&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 21; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849881&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 22,
+   "fil": "022.jpg",
+   "fileId": "5773849965",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849965&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 22; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849965&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 23,
+   "fil": "023.jpg",
+   "fileId": "5773849983",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849983&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 23; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849983&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 24,
+   "fil": "024.jpg",
+   "fileId": "5773849864",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849864&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 24; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849864&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 25,
+   "fil": "025.jpg",
+   "fileId": "5773849867",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849867&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 25; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849867&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 26,
+   "fil": "026.jpg",
+   "fileId": "5773849870",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849870&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 26; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849870&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 27,
+   "fil": "027.jpg",
+   "fileId": "5773849873",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849873&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 27; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849873&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 28,
+   "fil": "028.jpg",
+   "fileId": "5773849858",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849858&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 28; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849858&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 29,
+   "fil": "029.jpg",
+   "fileId": "5773849861",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849861&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 29; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849861&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 30,
+   "fil": "030.jpg",
+   "fileId": "5773849855",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849855&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 30; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849855&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 31,
+   "fil": "031.jpg",
+   "fileId": "5773849980",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849980&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 31; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849980&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 32,
+   "fil": "032.jpg",
+   "fileId": "5773850001",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773850001&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 32; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773850001&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 33,
+   "fil": "033.jpg",
+   "fileId": "5773849998",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849998&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 33; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849998&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 34,
+   "fil": "034.jpg",
+   "fileId": "5773849995",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849995&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 34; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849995&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 35,
+   "fil": "035.jpg",
+   "fileId": "5773849992",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849992&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 35; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849992&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 36,
+   "fil": "036.jpg",
+   "fileId": "5773849989",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849989&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 36; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849989&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 37,
+   "fil": "037.jpg",
+   "fileId": "5773849986",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849986&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 37; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849986&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 38,
+   "fil": "038.jpg",
+   "fileId": "5773849959",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849959&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 38; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849959&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 39,
+   "fil": "039.jpg",
+   "fileId": "5773849956",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849956&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 39; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849956&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 40,
+   "fil": "040.jpg",
+   "fileId": "5773849908",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849908&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 40; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849908&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 41,
+   "fil": "041.jpg",
+   "fileId": "5773849911",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849911&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 41; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849911&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 42,
+   "fil": "042.jpg",
+   "fileId": "5773849902",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849902&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 42; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849902&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 43,
+   "fil": "043.jpg",
+   "fileId": "5773849905",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849905&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 43; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849905&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 44,
+   "fil": "044.jpg",
+   "fileId": "5773849896",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849896&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 44; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849896&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 45,
+   "fil": "045.jpg",
+   "fileId": "5773849899",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849899&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 45; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849899&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 46,
+   "fil": "046.jpg",
+   "fileId": "5773849890",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849890&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 46; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849890&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 47,
+   "fil": "047.jpg",
+   "fileId": "5773849893",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849893&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 47; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849893&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 48,
+   "fil": "048.jpg",
+   "fileId": "5773849884",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849884&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 48; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849884&aineistoId=2373591055 / Viitattu 22.11.2026"
+  },
+  {
+   "jakso": 49,
+   "fil": "049.jpg",
+   "fileId": "5773849887",
+   "astia": "https://astia.narc.fi/uusiastia/viewer/?fileId=5773849887&aineistoId=2373591055",
+   "hamtad": "2026-11-22",
+   "viite": "Sotapäiväkirjat-kokoelma - 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942, jakso 49; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=5773849887&aineistoId=2373591055 / Viitattu 22.11.2026"
+  }
+ ]
+}
