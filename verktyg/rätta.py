@@ -14,14 +14,20 @@ innan de nya läggs till.
 import json, re, sys, datetime
 
 
-def omfattar(cell, key):
-    for part in re.split(r"\s*,\s*", cell.strip()):
+def rader_i(s):
+    """Radnumren som en cell eller nyckel omfattar: "12", "7–8", "3, 52", "9–10, 14"."""
+    nr = set()
+    for part in re.split(r"\s*,\s*", s.strip()):
         m = re.match(r"^(\d+)\s*[–-]\s*(\d+)$", part)
-        if m and int(m.group(1)) <= int(key) <= int(m.group(2)):
-            return True
-        if part == key:
-            return True
-    return False
+        if m:
+            nr.update(range(int(m.group(1)), int(m.group(2)) + 1))
+        elif part.isdigit():
+            nr.add(int(part))
+    return nr
+
+
+def omfattar(cell, key):
+    return bool(rader_i(cell) & rader_i(key))
 
 
 fil, bes = sys.argv[1], json.load(open(sys.argv[2], encoding="utf-8"))
