@@ -11,20 +11,26 @@ eller kör `python3 hamta.py <länk> [bilder]` så läggs raden till automatiskt
 
 | Länk | Bilder | Anm. |
 |---|---|---|
+| https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373589045 | alla | 10449 Jalkaväkirykmentti 13. Esikunta, 15.6.1941 - 7.9.1941 1941-1941 |
+| https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373589846 | alla | 10450 Jalkaväkirykmentti 13. Esikunta, 13.9.1941 - 5.2.1942 1941-1942 |
+| https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373591055 | alla | 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942 |
+| https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373592230 | alla | 10452 Jalkaväkirykmentti 13. Esikunta, 24.4.1942 - 17.10.1942 1942-1942 |
+| https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373593405 | alla | 10453 Jalkaväkirykmentti 13. Esikunta, 18.10.1942 - 7.1.1943 1942-1943 |
+| https://digihakemisto.net/aineisto/2373594060 | alla | 10454 Jalkaväkirykmentti 13. Esikunta, 1.1.1944 - 23.5.1944 1944-1944 |
+| https://digihakemisto.net/aineisto/2373595137 | alla | 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944 |
+| https://digihakemisto.net/aineisto/2373596178 | alla | 10456 Jalkaväkirykmentti 13. Esikunta - |
 | https://digihakemisto.net/aineisto/2373598065 | alla | 10457 Jalkaväkirykmentti 13. 1. komppania, 12.6.1941 - 18.10.1941 1941-1941 |
 | https://digihakemisto.net/aineisto/2373598920 | alla | 10458 Jalkaväkirykmentti 13. 1. komppania, 19.10.1941 - 22.12.1941 1941-1941 |
 | https://digihakemisto.net/aineisto/2373599907 | alla | 10459 Jalkaväkirykmentti 13. 1. komppania, 23.12.1941 - 21.4.1942 1941-1942 |
 | https://digihakemisto.net/aineisto/2373600894 | alla | 10460 Jalkaväkirykmentti 13. 1. komppania, 22.4.1942 - 17.6.1942 1942-1942 |
 | https://digihakemisto.net/aineisto/2373601513 | alla | 10461 Jalkaväkirykmentti 13. 1. komppania, 18.6.1942 - 31.7.1943 1942-1943 |
 | https://digihakemisto.net/aineisto/2373603603 | alla | 10462 Jalkaväkirykmentti 13. 1. komppania, 1.8.1943 - 13.7.1944 1943-1944 |
-| https://digihakemisto.net/aineisto/2373594060 | alla | 10454 Jalkaväkirykmentti 13. Esikunta, 1.1.1944 - 23.5.1944 1944-1944 |
-| https://digihakemisto.net/aineisto/2373595137 | alla | 10455 Jalkaväkirykmentti 13. Esikunta, 24.5.1944 - 21.8.1944 1944-1944 |
-| https://digihakemisto.net/aineisto/2373596178 | alla | 10456 Jalkaväkirykmentti 13. Esikunta - |
-| https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373589045 | alla | 10449 Jalkaväkirykmentti 13. Esikunta, 15.6.1941 - 7.9.1941 1941-1941 |
-| https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373589846 | alla | 10450 Jalkaväkirykmentti 13. Esikunta, 13.9.1941 - 5.2.1942 1941-1942 |
-| https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373591055 | alla | 10451 Jalkaväkirykmentti 13. Esikunta, 6.2.1942 - 23.4.1942 1942-1942 |
-| https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373592230 | alla | 10452 Jalkaväkirykmentti 13. Esikunta, 24.4.1942 - 17.10.1942 1942-1942 |
-| https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373593405 | alla | 10453 Jalkaväkirykmentti 13. Esikunta, 18.10.1942 - 7.1.1943 1942-1943 |
+| https://digihakemisto.net/aineisto/2373605890 | alla | 10463 Jalkaväkirykmentti 13. 1. komppania, 14.7.1944 - 21.8.1944 1944-1944 |
+| https://digihakemisto.net/aineisto/2373606348 | alla | 10464 Jalkaväkirykmentti 13. 1. komppania, 27.8.1944 - 6.12.1944 1944-1944 |
+| https://digihakemisto.net/aineisto/2373681869 | alla | 10532 Jalkaväkirykmentti 13. I pataljoona, 22.6.1941 - 15.5.1942 1941-1942 |
+| https://digihakemisto.net/aineisto/2373684426 | alla | 10533 Jalkaväkirykmentti 13. I pataljoona, 16.5.1942 - 17.8.1943 1942-1943 |
+| https://digihakemisto.net/aineisto/2373686570 | alla | 10534 Jalkaväkirykmentti 13. I pataljoona, 13.8.1943 - 22.8.1944 1943-1944 |
+| https://digihakemisto.net/aineisto/2373687510 | alla | 10535 Jalkaväkirykmentti 13. I pataljoona, 23.8.1944 - 2.11.1944 1944-1944 |
 
 
 ## Kontext

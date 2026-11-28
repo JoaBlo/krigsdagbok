@@ -1,0 +1,25 @@
+# 10463 – källa
+
+**Titel i arkivet:** Sotapäiväkirjat-kokoelma - 10463 Jalkaväkirykmentti 13. 1. komppania, 14.7.1944 - 21.8.1944 1944-1944  
+**Arkiv:** Kansallisarkisto  
+**Digihakemisto:** https://digihakemisto.net/aineisto/2373605890  
+**Astia:** https://astia.narc.fi/uusiastia/kortti_aineisto.html?id=2373605890  
+**Bilder i volymen:** 13, varav 13 hämtade
+
+Skapad av hamta.py. Bildnumret (jakso) är arkivets eget, så `005.jpg` = jakso 5.
+
+| Bild | Original i Astia | Hämtad | Källhänvisning |
+|---|---|---|---|
+| 001.jpg | [jakso 1](https://astia.narc.fi/uusiastia/viewer/?fileId=6286251381&aineistoId=2373605890) | 2026-11-28 | Sotapäiväkirjat-kokoelma - 10463 Jalkaväkirykmentti 13. 1. komppania, 14.7.1944 - 21.8.1944 1944-1944, jakso 1; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6286251381&aineistoId=2373605890 / Viitattu 28.11.2026 |
+| 002.jpg | [jakso 2](https://astia.narc.fi/uusiastia/viewer/?fileId=6286251387&aineistoId=2373605890) | 2026-11-28 | Sotapäiväkirjat-kokoelma - 10463 Jalkaväkirykmentti 13. 1. komppania, 14.7.1944 - 21.8.1944 1944-1944, jakso 2; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6286251387&aineistoId=2373605890 / Viitattu 28.11.2026 |
+| 003.jpg | [jakso 3](https://astia.narc.fi/uusiastia/viewer/?fileId=6286251384&aineistoId=2373605890) | 2026-11-28 | Sotapäiväkirjat-kokoelma - 10463 Jalkaväkirykmentti 13. 1. komppania, 14.7.1944 - 21.8.1944 1944-1944, jakso 3; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6286251384&aineistoId=2373605890 / Viitattu 28.11.2026 |
+| 004.jpg | [jakso 4](https://astia.narc.fi/uusiastia/viewer/?fileId=6286251393&aineistoId=2373605890) | 2026-11-28 | Sotapäiväkirjat-kokoelma - 10463 Jalkaväkirykmentti 13. 1. komppania, 14.7.1944 - 21.8.1944 1944-1944, jakso 4; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6286251393&aineistoId=2373605890 / Viitattu 28.11.2026 |
+| 005.jpg | [jakso 5](https://astia.narc.fi/uusiastia/viewer/?fileId=6286251390&aineistoId=2373605890) | 2026-11-28 | Sotapäiväkirjat-kokoelma - 10463 Jalkaväkirykmentti 13. 1. komppania, 14.7.1944 - 21.8.1944 1944-1944, jakso 5; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6286251390&aineistoId=2373605890 / Viitattu 28.11.2026 |
+| 006.jpg | [jakso 6](https://astia.narc.fi/uusiastia/viewer/?fileId=6286251399&aineistoId=2373605890) | 2026-11-28 | Sotapäiväkirjat-kokoelma - 10463 Jalkaväkirykmentti 13. 1. komppania, 14.7.1944 - 21.8.1944 1944-1944, jakso 6; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6286251399&aineistoId=2373605890 / Viitattu 28.11.2026 |
+| 007.jpg | [jakso 7](https://astia.narc.fi/uusiastia/viewer/?fileId=6286251396&aineistoId=2373605890) | 2026-11-28 | Sotapäiväkirjat-kokoelma - 10463 Jalkaväkirykmentti 13. 1. komppania, 14.7.1944 - 21.8.1944 1944-1944, jakso 7; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6286251396&aineistoId=2373605890 / Viitattu 28.11.2026 |
+| 008.jpg | [jakso 8](https://astia.narc.fi/uusiastia/viewer/?fileId=6286251405&aineistoId=2373605890) | 2026-11-28 | Sotapäiväkirjat-kokoelma - 10463 Jalkaväkirykmentti 13. 1. komppania, 14.7.1944 - 21.8.1944 1944-1944, jakso 8; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6286251405&aineistoId=2373605890 / Viitattu 28.11.2026 |
+| 009.jpg | [jakso 9](https://astia.narc.fi/uusiastia/viewer/?fileId=6286251402&aineistoId=2373605890) | 2026-11-28 | Sotapäiväkirjat-kokoelma - 10463 Jalkaväkirykmentti 13. 1. komppania, 14.7.1944 - 21.8.1944 1944-1944, jakso 9; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6286251402&aineistoId=2373605890 / Viitattu 28.11.2026 |
+| 010.jpg | [jakso 10](https://astia.narc.fi/uusiastia/viewer/?fileId=6286251372&aineistoId=2373605890) | 2026-11-28 | Sotapäiväkirjat-kokoelma - 10463 Jalkaväkirykmentti 13. 1. komppania, 14.7.1944 - 21.8.1944 1944-1944, jakso 10; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6286251372&aineistoId=2373605890 / Viitattu 28.11.2026 |
+| 011.jpg | [jakso 11](https://astia.narc.fi/uusiastia/viewer/?fileId=6286251369&aineistoId=2373605890) | 2026-11-28 | Sotapäiväkirjat-kokoelma - 10463 Jalkaväkirykmentti 13. 1. komppania, 14.7.1944 - 21.8.1944 1944-1944, jakso 11; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6286251369&aineistoId=2373605890 / Viitattu 28.11.2026 |
+| 012.jpg | [jakso 12](https://astia.narc.fi/uusiastia/viewer/?fileId=6286251378&aineistoId=2373605890) | 2026-11-28 | Sotapäiväkirjat-kokoelma - 10463 Jalkaväkirykmentti 13. 1. komppania, 14.7.1944 - 21.8.1944 1944-1944, jakso 12; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6286251378&aineistoId=2373605890 / Viitattu 28.11.2026 |
+| 013.jpg | [jakso 13](https://astia.narc.fi/uusiastia/viewer/?fileId=6286251375&aineistoId=2373605890) | 2026-11-28 | Sotapäiväkirjat-kokoelma - 10463 Jalkaväkirykmentti 13. 1. komppania, 14.7.1944 - 21.8.1944 1944-1944, jakso 13; Kansallisarkisto: https://astia.narc.fi/uusiastia/viewer/?fileId=6286251375&aineistoId=2373605890 / Viitattu 28.11.2026 |
